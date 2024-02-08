@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <audio id="audioNotifikasi">
+  <source src="Happy.mp3" type="audio/mpeg">
+</audio>
+
+    <p>Klik tombol di bawah ini untuk memutar atau pause audio.</p>
+
+    <button onclick="playAudio()" type="button">Play Audio</button>
+    <button onclick="pauseAudio()" type="button">Pause Audio</button>
+
+    <script type="text/javascript">
+        var el = document.getElementById("audioNotifikasi");
+
+        function playAudio() {
+            el.play();
+        }
+
+        function pauseAudio() {
+            el.pause();
+        }
+    </script>
+
+</body>
+
+</html>
