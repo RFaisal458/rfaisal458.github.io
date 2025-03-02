@@ -107,6 +107,9 @@ body {
     top: 10vh;
     z-index: 1;
 }
+.lydia-dp{
+    width:50%;
+}
 
 .container div.seven,
 .container div.eight {
