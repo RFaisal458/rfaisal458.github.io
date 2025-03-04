@@ -108,7 +108,7 @@ body {
     z-index: 1;
 }
 .lydia-dp{
-    width:50%;
+    width:100%;
 }
 
 .container div.seven,
@@ -214,7 +214,7 @@ body {
 .six img {
     display: inline-block;
     max-width: 100%;
-    width: 250px;
+    width: 400px;
     height: auto;
     background-color: #402218;
     border: 1px solid #402218;
@@ -315,7 +315,6 @@ body {
     font-size: 2em;
     margin: 0;
     margin-top: 1%;
-    margin-left: 10%;
     text-transform: uppercase;
     font-family: 'happyBirthDay';
 }
@@ -327,7 +326,9 @@ body {
     font-family: 'DK';
     margin: 10px auto;
 }
-
+.nine{
+    top:0.5vh !important;
+}
 .nine p {
     font-size: 2.5rem;
     font-weight: lighter;
@@ -339,9 +340,9 @@ body {
     border: 1px solid #5D534A;
     box-shadow: 10px 10px 20px black;
     border-radius: 4px;
-    padding: 5px;
+    padding: 2px;
     max-width: 100%;
-    width: 500px;
+    width: 200px;
 }
 
 #replay {
